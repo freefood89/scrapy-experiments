@@ -9,6 +9,7 @@ import scrapy
 
 
 class SecItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    date = scrapy.Field()
+    filing = scrapy.Field()
+    link = scrapy.Field()
+    
